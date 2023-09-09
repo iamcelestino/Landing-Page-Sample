@@ -9,15 +9,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 .container {
     max-width: 960px;
     margin: auto;
     padding: 0 1rem;
-
 }
-
 
 header {
     background-color: #1F2937;
@@ -72,10 +68,7 @@ li {
     padding: 6rem 12rem;
     display: inline-block;
     margin-left: 2rem;
-
 }
-
-
 
 .banner {
     display: flex;

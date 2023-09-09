@@ -1,4 +1,4 @@
-#Landing-Page odin project exercise
+Landing-Page odin project exercise
 
 - this is a begginer exercise landing page.
 
