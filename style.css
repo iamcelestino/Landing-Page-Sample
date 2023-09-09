@@ -59,11 +59,12 @@ li {
 .banner h2 {
     font-size: 48px;
     font-weight: bold;
-    font-color: #f9faf8
+    color: #f9faf8
 }
 
 .banner p {
     font-size: 18px;
+    width: 80%;
 }
 
 .banner__img {
@@ -74,16 +75,13 @@ li {
 
 }
 
-.banner-img, .banner_description {
-    flex: 1;
-}
+
 
 .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 
 .banner a {
     background-color: #3882f6;
@@ -104,11 +102,9 @@ h3 {
     text-align: center;
 }
 
-
 .quote {
     background-color: #e5e7eb;
     padding: 6rem;
-
 }
 
 .quote p {
@@ -154,9 +150,6 @@ h3 {
     padding: 0.4rem 1.3rem;
     border-radius: 4px;
 }
-
-
-
 
 footer {
     background-color:#1F2937 ;
