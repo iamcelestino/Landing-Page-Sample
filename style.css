@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 1rem;
+
+}
+
+
+header {
+    background-color: #1F2937;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.header__links {
+    display: flex;
+}
+
+.header__links li {
+    margin-left: 1rem;
+}
+
+.banner {
+    padding: 4rem 0;
+}
+
+.banner__img {
+    background-color: gray;
+    padding: 6rem 12rem;
+    display: inline-block;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.banner a {
+    background-color: blue;
+    color: #fff;
+    display: inline-block;
+    padding: 0.4rem 1.3rem;
+    margin-top: 1rem;
+}
+.infomation__boxes {
+    display: flex;
+    justify-content: space-between;
+}
+.information {
+    margin-top: 2rem;
+}
+
+
+.quote {
+    background-color: rgb(181, 181, 181);
+    margin: 2rem 0;
+    padding: 4rem;
+}
+
+.box div {
+    padding: 2rem;
+    border: 2px solid blue;
+
+}
+
+.box {
+    margin: 1rem;
+}
+
+.contact {
+   background-color: blue;
+   color: #fff;
+   padding: 2rem 1rem;
+   margin-bottom: 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 10px;
+}
+
+.contact a {
+    display: block;
+    border: 1px solid;
+    padding: 0.4rem 0.3rem;
+    border-radius: 4px;
+}
+
+
+
+
+footer {
+    background-color:#1F2937 ;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
